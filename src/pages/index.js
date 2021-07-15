@@ -9,7 +9,7 @@ Amplify.configure(config)
 
 const IndexPage = () => (
   <Layout>
-    <h1>Hi people</h1>
+    <h1>Hi there</h1>
     <p>Welcome to Bocs in Box !! <a href="https://amplify.aws">AWS Amplify</a></p>
     <p>Create a new account: <Link to="/app/signup">Sign Up</Link></p>
     <Link to="/app/login">Sign In</Link><br />
