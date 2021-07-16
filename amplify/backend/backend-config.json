@@ -1,0 +1,21 @@
+{
+  "auth": {
+    "cognito704b3e59": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation"
+    }
+  },
+  "function": {
+    "awsamplifygatsbyauth3a00084b": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "storage": {
+    "dynamo07f8329c": {
+      "service": "DynamoDB",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}
