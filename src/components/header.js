@@ -26,9 +26,10 @@ const Header = ({ siteTitle }) => (
           style={styles.headerTitle}
         >
           {siteTitle}
+          <h3><Link to="/app/login">Login</Link><br /></h3>
         </Link>
       </h1>
-      <h3><Link to="/app/login">Login</Link><br /></h3>
+     
       {
         isLoggedIn() && (
           <p
