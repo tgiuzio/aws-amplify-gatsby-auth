@@ -28,6 +28,7 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <h1><Link to="/app/login">LogIn</Link><br /></h1>
       {
         isLoggedIn() && (
           <p
