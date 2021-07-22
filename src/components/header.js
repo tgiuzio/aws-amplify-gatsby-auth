@@ -30,7 +30,8 @@ const Header = ({ siteTitle }) => (
         </Link>
         
       </h1>
-      <h3><Link to="/app/login">Login</Link><br /></h3>
+      <h3 style={{ margin: 0 }}>
+        <Link to="/app/login">Login</Link><br /></h3>
      
       {
         isLoggedIn() && (
