@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from '../components/layout'
 
 import Amplify from 'aws-amplify'
@@ -9,12 +9,12 @@ Amplify.configure(config)
 
 const IndexPage = () => (
   <Layout>
-    import { StaticImage } from "gatsby-plugin-image"
+    
 export function Dino() {
   return (
     <StaticImage
       src="../images/Rapton.png"
-      alt="A dinosaur"
+      alt="Printer Model H600"
       placeholder="blurred"
       layout="fixed"
       width={200}
