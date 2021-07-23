@@ -10,8 +10,17 @@ Amplify.configure(config)
 const IndexPage = () => (
   <Layout>
     import { StaticImage } from "gatsby-plugin-image"
-    export function Dino() {
-    return <StaticImage src="../images/Rapton.png" alt="Printer" />
+export function Dino() {
+  return (
+    <StaticImage
+      src="../images/Rapton.png"
+      alt="A dinosaur"
+      placeholder="blurred"
+      layout="fixed"
+      width={200}
+      height={200}
+    />
+  )
 }
     <h1>Hi there</h1>
     <p>Rapton3D Ecosystem. <a href="https://www.rapton3d.com">Site</a></p>
