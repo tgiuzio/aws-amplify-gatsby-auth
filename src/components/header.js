@@ -11,7 +11,7 @@ const Header = ({ siteTitle }) => (
     style={{
       background: 'grey',
       marginBottom: '1.45rem',
-      display: inline,
+      display: 'inline',
     }}
   >
     <div
