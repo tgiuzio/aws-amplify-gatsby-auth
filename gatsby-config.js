@@ -3,6 +3,7 @@ module.exports = {
     title: `Rapton3D`,
     description: `Lets work smart!`,
     author: `@Toni Giuzio`,
+    keywords:'teste',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
