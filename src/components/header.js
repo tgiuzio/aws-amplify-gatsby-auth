@@ -33,7 +33,7 @@ const Header = ({ siteTitle }) => (
       </h1>
       <ul>
         <li><a class="active" href="#home">Home</a></li>
-        <li><a class="active" href="login">Login</a></li>
+        <li><a class="active" href="login"></a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="#about">About</a></li>
       </ul>
