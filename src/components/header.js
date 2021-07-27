@@ -31,7 +31,7 @@ const Header = ({ siteTitle }) => (
         </Link>
         
       </h1>
-      <ul>
+      <ul className:ul>
 
         <li><a class="active" href="#home">Home</a></li>
         <li><a href="#news">News</a></li>
