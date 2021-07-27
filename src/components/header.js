@@ -11,6 +11,7 @@ const Header = ({ siteTitle }) => (
     style={{
       background: 'grey',
       marginBottom: '1.45rem',
+      display: inline,
     }}
   >
     <div
@@ -65,15 +66,7 @@ const styles = {
     color: 'white',
     textDecoration: 'underline'
   },
-  ul: {
-    margin: 0,
-    padding: 0,
-    overflow: hidden,
-    color: red
-  },
-  li: {
-    display: inline,
-  },
+
 }
 
 export default Header
