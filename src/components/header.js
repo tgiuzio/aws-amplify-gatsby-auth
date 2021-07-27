@@ -64,14 +64,13 @@ const styles = {
     textDecoration: 'underline'
   },
   ul: {
-    list-style-type: none,
-    margin: 0
+    margin: 0,
     padding: 0,
     overflow: hidden,
-    color: red,
-  }
-  li {
-    display: inline;
+    color: red
+  },
+  li: {
+    display: inline,
   }
 
   
