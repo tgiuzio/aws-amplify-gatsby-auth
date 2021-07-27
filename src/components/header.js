@@ -31,11 +31,11 @@ const Header = ({ siteTitle }) => (
         
       </h1>
       <ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
       <h3 style={{ margin: 0 }}>
         <Link to="/app/login">Login</Link><br /></h3>
      
@@ -62,7 +62,19 @@ const styles = {
     cursor: 'pointer',
     color: 'white',
     textDecoration: 'underline'
+  },
+  ul: {
+    list-style-type: none,
+    margin: 0
+    padding: 0,
+    overflow: hidden,
+    color: red,
   }
+  li {
+    display: inline;
+  }
+
+  
 }
 
 export default Header
