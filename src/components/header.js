@@ -71,9 +71,7 @@ const styles = {
   },
   li: {
     display: inline,
-  }
-
-  
+  },
 }
 
 export default Header
